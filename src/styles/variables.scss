@@ -1,0 +1,30 @@
+/*字体颜色*/
+$mainColor: #FF76AA;
+$txtColor: #323232;
+$txtColor2: #383838;
+
+/*font-family: "Microsoft YaHei Light";*/
+/*font-family: 'Microsoft YaHei';*/
+
+/*字体大小*/
+$fz14: .4375rem;
+$fz16: .5rem;
+$fz18: .5625rem;
+$fz20: .625rem;
+$fz24: .75rem;
+$fz32: 1rem;
+
+$borderColor: #f1f1f1;
+
+/*这个在很多表格用到这个类,定义为全局,表格的html为row-class-name="table-column-lyw"*/
+/*表格每一行的样式*/
+.table-column-lyw {
+  height: 50px;
+}
+
+/*这个在很多表格用到这个类,定义为全局,表格的html为header-cell-class-name="table-header-lyw"*/
+/*主要是表头的每个单元格的样式*/
+.table-header-cell-lyw {
+  background: rgba(241, 241, 241, .8) !important;
+  height: 50px !important;
+}
